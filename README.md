@@ -82,3 +82,133 @@ Output: Only print the final grammatically correct, idiomatic, and natural-sound
 code-switched sentence. Wrap the inserted English-derived word (after applying German 
 morphology) in §§ ...§§. Mark only the substituted word, not surrounding context. 
 No explanations, no comments.
+```
+
+## 2. Code-Switching Annotation Guidelines
+
+## Matrix Language
+
+The matrix language of the corpus is **German**.  
+A token is annotated as *code-switched (CS)* if it represents an insertion from a non-German language into an otherwise German syntactic frame.
+
+---
+
+## A Token Is Annotated as Code-Switched (CS) If:
+
+### 1. Lexical Insertion from a Living Foreign Language  
+The token belongs to a living non-German language (e.g., English) and a standard German equivalent exists.
+
+**Examples:**  
+- `because` → *weil*  
+- `runway` → *Landebahn*  
+- `Portuguese` → *Portugiesisch*  
+- `losing streak` → *Niederlagenserie*
+
+---
+
+### 2. English Function Words Occur  
+Articles, conjunctions, pronouns, auxiliaries, etc.
+
+**Examples:**  
+- `if`, `because`, `as`, `the`, `a`, `will`, `can`
+
+Function words are always marked as CS.
+
+---
+
+### 3. English Phrases or Technical Terms Are Inserted  
+Multi-word expressions are marked at the token level.
+
+**Examples:**  
+- `hostile fire`  
+- `Romance language`  
+- `runway overrun`
+
+---
+
+### 4. English Possessive Morphology Appears  
+Possessive ’s constructions are marked as CS.
+
+**Examples:**  
+- `Australia’s` → *Australiens*  
+- `men’s` → *Männer-*
+
+---
+
+### 5. English Numerals Are Used  
+**Example:**  
+- `seventeen` → *siebzehn*
+
+---
+
+### 6. Hybrid Forms with English Lexical Base  
+German inflection applied to an English stem.
+
+**Examples:**  
+- `moven`  
+- `breachen`  
+- `downloaden`
+
+---
+
+### 7. English Pronunciation of Acronyms (Audio Condition)  
+If clearly pronounced using English phonology.
+
+**Example:**  
+- `USA` pronounced “you-ess-ay” → CS  
+
+---
+
+## A Token Is NOT Annotated as Code-Switched If:
+
+### 1. Proper Names  
+Persons, locations, institutions, teams.
+
+**Examples:**  
+- `Hong Kong`  
+- `T-Rex`  
+- `Sachin Tendulkar`
+
+---
+
+### 2. Internationally Standardized Codes or Technical Labels  
+ISO currency codes, medical acronyms, etc.
+
+**Examples:**  
+- `USD`, `GBP`, `FKP`  
+- `XDR-TB`
+
+(Unless clearly pronounced in English in audio.)
+
+---
+
+### 3. Fully Integrated Loanwords in German  
+Entries established in standard German and morphologically integrated.
+
+**Examples:**  
+- `Team / Teams`  
+- `Blog / Blogs`  
+- `Crash`
+
+However, the same word inside a fully English phrase (e.g., `invisible team`) is marked as CS.
+
+---
+
+### 4. Citation Languages (Etymological or Scholarly Use)  
+Latin, Ancient Greek, etc., when used as citation forms rather than communicative switches.
+
+**Examples:**  
+- `civitas`  
+- `civilis`
+
+---
+
+## Operational Principle
+
+Code-switching is defined as an **active insertion of a foreign communicative code** into a German syntactic structure.
+
+Not considered code-switching:
+- Proper names  
+- International symbols  
+- Established loanwords  
+- Etymological citations  
